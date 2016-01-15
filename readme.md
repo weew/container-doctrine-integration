@@ -10,6 +10,7 @@
 
 - [Installation](#installation)
 - [Introduction](#introduction)
+- [Conventions](#conventions)
 - [Usage](#usage)
 
 ## Installation
@@ -18,7 +19,14 @@
 
 ## Introduction
 
-This package makes doctrine repositories injectable trough the [weew/php-container](https://github.com/weew/php-container) container.
+Doctrine repositories are not injectable on their own since they are not easily instantiable. To make it work you'll have to work with factories do some argument parsing and so on. This is exactly what this package does, it makes doctrine repositories injectable trough the [weew/php-container](https://github.com/weew/php-container) container.
+
+## Conventions
+
+There are certain conventions that you must follow to be inject doctrine repositories. Repositories loader does this kind of repository name to entity name conversion:
+`Vendor\Package\Repositories\FooRepository` should map to this entity `Vendor\Package\Entities\Foo`.
+
+If this name matching strategy is not sufficient for you, you may provide your own implementation of the `IRepositoryNameParser` interface.
 
 ## Usage
 
