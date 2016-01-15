@@ -23,7 +23,7 @@ Doctrine repositories are not injectable on their own since they are not easily 
 
 ## Conventions
 
-There are certain conventions that you must follow to be inject doctrine repositories. Repositories loader does this kind of repository name to entity name conversion:
+There are certain conventions that you must follow to be able to inject doctrine repositories. Repositories loader does this kind of repository name to entity name conversion:
 `Vendor\Package\Repositories\FooRepository` should map to this entity `Vendor\Package\Entities\Foo`.
 
 If this name matching strategy is not sufficient for you, you may provide your own implementation of the `IRepositoryNameParser` interface.
