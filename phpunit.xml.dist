@@ -10,7 +10,7 @@
          syntaxCheck="false"
          bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="php-container-doctrine-integration">
+        <testsuite name="container-doctrine-integration">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>

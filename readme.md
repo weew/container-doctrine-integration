@@ -1,10 +1,10 @@
 # Integration of doctrine repositories
 
-[![Build Status](https://img.shields.io/travis/weew/php-container-doctrine-integration.svg)](https://travis-ci.org/weew/php-container-doctrine-integration)
-[![Code Quality](https://img.shields.io/scrutinizer/g/weew/php-container-doctrine-integration.svg)](https://scrutinizer-ci.com/g/weew/php-container-doctrine-integration)
-[![Test Coverage](https://img.shields.io/coveralls/weew/php-container-doctrine-integration.svg)](https://coveralls.io/github/weew/php-container-doctrine-integration)
-[![Version](https://img.shields.io/packagist/v/weew/php-container-doctrine-integration.svg)](https://packagist.org/packages/weew/php-container-doctrine-integration)
-[![Licence](https://img.shields.io/packagist/l/weew/php-container-doctrine-integration.svg)](https://packagist.org/packages/weew/php-container-doctrine-integration)
+[![Build Status](https://img.shields.io/travis/weew/container-doctrine-integration.svg)](https://travis-ci.org/weew/container-doctrine-integration)
+[![Code Quality](https://img.shields.io/scrutinizer/g/weew/container-doctrine-integration.svg)](https://scrutinizer-ci.com/g/weew/container-doctrine-integration)
+[![Test Coverage](https://img.shields.io/coveralls/weew/container-doctrine-integration.svg)](https://coveralls.io/github/weew/container-doctrine-integration)
+[![Version](https://img.shields.io/packagist/v/weew/container-doctrine-integration.svg)](https://packagist.org/packages/weew/container-doctrine-integration)
+[![Licence](https://img.shields.io/packagist/l/weew/container-doctrine-integration.svg)](https://packagist.org/packages/weew/container-doctrine-integration)
 
 ## Table of contents
 
@@ -15,11 +15,11 @@
 
 ## Installation
 
-`composer require weew/php-container-doctrine-integration`
+`composer require weew/container-doctrine-integration`
 
 ## Introduction
 
-Doctrine repositories are not injectable on their own since they are not easily instantiable. To make it work you'll have to work with factories do some argument parsing and so on. This is exactly what this package does, it makes doctrine repositories injectable trough the [weew/php-container](https://github.com/weew/php-container) container.
+Doctrine repositories are not injectable on their own since they are not easily instantiable. To make it work you'll have to work with factories do some argument parsing and so on. This is exactly what this package does, it makes doctrine repositories injectable trough the [weew/container](https://github.com/weew/container) container.
 
 ## Conventions
 

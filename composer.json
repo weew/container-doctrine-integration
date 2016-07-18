@@ -1,6 +1,6 @@
 {
-    "name": "weew/php-container-doctrine-integration",
-    "description": "Make doctrine repositories injectable in the weew/php-container.",
+    "name": "weew/container-doctrine-integration",
+    "description": "Make doctrine repositories injectable in the weew/container.",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
         }
     },
     "require": {
-        "weew/php-container": "^1.0",
+        "weew/container": "^1.0",
         "doctrine/orm": "^2.5"
     },
     "require-dev": {
